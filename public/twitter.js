@@ -23,7 +23,7 @@ submitTweetButton.onclick = function() {
 // Enable pusher logging - don't include this in production
 Pusher.logToConsole = true;
 
-var pusher = new Pusher('2829cd349660dac0cd79', {
+var pusher = new Pusher('71f7f8f34d63dc5d2c43', {
   cluster: 'eu',
   encrypted: true
 });
